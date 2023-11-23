@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debugging Exercise</title>
+<style>
+body {
+font-family:Verdana,Tahoma, sans-serif;
+background-color: #f4f4f4;
+color: #333;
+margin: 20px;
+}
+h1 {
+color: #007bff;
+}
+.important-text {
+font-weight: bold;
+color: #d9534f;
+}
+</style>
+</head>
+<body>
+<h1>Debugging Exercise</h1>
+<!---This is a paragraph with some --><span class="important-text">important text</span>
+<p>Here's an unordered list:</p>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+<p>And here's an ordered list:</p>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<a href="https://www.example.com">link to example.com</a>
+<script>
+console.log("Debugging exercise script");
+</script>
+</body>
+</html>
+<!---error correction: removing of paragraph tag and made into a comment and then i had changed font-family-->
+<hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Element</title>
+</head>
+<body>
+    <button onclick="toggleElement()">Toggle Element</button>
+    <div id="target" style="display: none;">This is the target element.</div>
+    <script>
+        function toggleElement() {
+            var element = document.getElementById("target");
+            element.style.display = (element.style.display === "none") ? "block" : "none";
+        }
+    </script>
+</body>
+</html>
+<!---error correction: button on click we get an toggle element-->
+<hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Container</title>
+<style>
+.container {
+margin: auto;
+width: 50%;
+background-color: lightgrey;
+padding: 20px;
+text-align: center;
+text-transform: uppercase;
+text-shadow: #f4f4f4;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Centered Container</h1>
+<!---This container should be centered on the page--->
+</div>
+</body>
+</html>
+<!---error correction:container should be placed in the center so i had added text-align and for more text-transform, text-shadow,and changed background-color.-->
+<hr>
+function calculateSum(arr)
+let sum = 0;
+for (let i = 0; i < arr.length; i++) {
+sum += arr[i];
+return sum;
+}
+const numbers = [1, 2, 3, 4, 5];
+const result = calculateSum(numbers);
+console.log(result); // Should output 15
+<!---error correction:i had removed the curly braces-->
+<hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Styling Debugging Exercise</title>
+<style>
+.container {
+width: 50%;
+margin: 0 auto;
+background-color:lightgrey;
+padding: 20px;
+}
+
+.box1{
+width: 100px;
+height: 100px;
+background-color: orange;
+color: black;
+text-align: center;
+line-height: 100px;
+border: 5px black;
+margin: 5px;
+}
+.box2{
+width: 100px;
+height: 100px;
+background-color: purple;
+color: black;
+text-align: center;
+line-height: 100px;
+border: 5px black;
+margin: 5px;
+}
+.box3{
+width: 100px;
+height: 100px;
+background-color: skyblue;
+color: black;
+text-align: center;
+line-height: 100px;
+border: 5px black;
+margin: 5px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="box1">Box 1</div>
+<div class="box2">Box 2</div>
+<div class="box3">Box 3</div>
+</div>
+</body>
+</html>
+<!---error correction:i had created three boxes in CSS and for each box a certain color was given and background color of container also changed-->
+
+
+
